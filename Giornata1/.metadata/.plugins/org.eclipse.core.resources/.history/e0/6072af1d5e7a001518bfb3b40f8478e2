@@ -1,0 +1,10 @@
+package tests;
+
+import utils.Data;
+import utils.Persona;
+
+public class Test02 {
+		public static void main(String[] args) {
+			Persona io = new Persona("Giacomo", "ISmanettone", new Data(4, 8, 1980));
+		}
+}

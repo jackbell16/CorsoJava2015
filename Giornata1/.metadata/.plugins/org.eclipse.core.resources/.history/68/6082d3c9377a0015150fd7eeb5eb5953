@@ -1,0 +1,9 @@
+package tests;
+
+import utils.Messaggio;
+
+public class Test01 {
+	public static void main(String[] args) {
+		Messaggio invito = new Messaggio("Vuoi venire da me?");
+	}
+}

@@ -1,0 +1,14 @@
+package utils;
+
+public class Messaggio {
+	
+	public String testo;
+
+	public Messaggio(String variabile) {
+		super();
+		this.testo = testo;
+	}
+	
+	
+
+}

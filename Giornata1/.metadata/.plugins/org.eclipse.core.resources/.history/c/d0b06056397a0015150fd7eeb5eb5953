@@ -1,0 +1,11 @@
+package tests;
+
+import utils.Messaggio;
+
+public class Test01 {
+	public static void main(String[] args) {
+		String variabile = "Vuoi venire da me?";
+		Messaggio invito = new Messaggio();
+		System.out.println(invito.testo);
+	}
+}

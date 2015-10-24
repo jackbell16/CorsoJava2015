@@ -1,0 +1,57 @@
+package utils;
+
+public class Data {
+	
+	private int giorno;
+	private int mese;
+	private int anno;
+	
+	public Data(int giorno, int mese, int anno) {
+		super();
+		this.giorno = giorno;
+		setMese(mese);
+		this.anno = anno;
+	}
+	
+	
+	public int getGiorno() {
+		return giorno;
+	}
+
+
+	public void setGiorno(int giorno) {
+		this.giorno = giorno;
+	}
+
+
+	public int getMese() {
+		return mese;
+	}
+
+
+	public void setMese(int mese) {
+		if(mese<=12 && mese>=1){
+			this.mese = mese;
+		}else{
+			this.mese = 1;
+		}
+	}
+
+
+	public int getAnno() {
+		return anno;
+	}
+
+
+	public void setAnno(int anno) {
+		this.anno = anno;
+	}
+
+
+	@Override
+	public String toString() {
+		return giorno+"/"+mese+"/"+anno;
+	}
+	
+
+}
