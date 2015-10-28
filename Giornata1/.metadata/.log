@@ -699,3 +699,49 @@ Binding(ALT+COMMAND+R,
 
 !ENTRY org.eclipse.cdt.ui 4 0 2015-10-24 20:44:27.920
 !MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+!SESSION 2015-10-24 21:40:01.585 -----------------------------------------------
+eclipse.buildId=4.6.0.I20150916-2000
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/giacomobellazzi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/giacomobellazzi/Documents/CorsoJava2015/Giornata1/ -product org.eclipse.epp.package.java.product -keyring /Users/giacomobellazzi/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.ui 4 0 2015-10-24 21:40:02.136
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2015-10-24 21:40:02.137
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.core.net 1 0 2015-10-24 21:40:02.243
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2015-10-24 21:40:04.587
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-10-24 21:40:04.587
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22a63740,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@211da640,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.ui 4 0 2015-10-24 21:40:07.226
+!MESSAGE The org.eclipse.ui.IStartup extension from 'com.objectaid.uml' does not provide a valid 'startup' element.
+
+!ENTRY org.eclipse.cdt.ui 4 0 2015-10-24 21:40:08.520
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
+
+!ENTRY org.eclipse.cdt.ui 4 0 2015-10-24 21:40:08.520
+!MESSAGE [SCR] Component definition XMLs not found in bundle org.eclipse.cdt.ui. The component header value is OSGI-INF/consoleservice.xml
