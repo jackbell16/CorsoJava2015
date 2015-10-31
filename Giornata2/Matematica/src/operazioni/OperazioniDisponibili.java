@@ -1,8 +1,10 @@
 package operazioni;
 
 import java.util.ArrayList;
+
 /**
  * Questa classe contiene tutte le operazioni disponibili
+ * 
  * @author giacomobellazzi
  *
  */
