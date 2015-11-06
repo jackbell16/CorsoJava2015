@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iLamp</string>
+    <string name="text_section1">Welcome to the application to swicth on and off the lamp!</string>
+    <string name="text_section2">The application works with Arduino; please check the wires before.</string>
+    <string name="text_section3">Please check that you are internet connected and take note of the IP.</string>
+    <string name="text_setting">Insert the IP address of Arduino:</string>
+    <string name="text_button">Save</string>
+    <string name="hello_world">Now you can turn on/off your lamp!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>

@@ -1,0 +1,3 @@
+Paolo|Rossi|10|10|1994
+Mario|Rossi|1|1|1990
+Giuseppe|Verdi|15|7|1992
